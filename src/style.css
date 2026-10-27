@@ -35,7 +35,7 @@
   text-decoration: none;
 }
 
-#navbar ul li a:hover{
+#navbar ul li a:hover {
   background-color: #111111;
 }
 
@@ -69,10 +69,34 @@
   display: block;
 }
 
-.dropdown:hover .dropdown-content{
+.dropdown:hover .dropdown-content {
   display: block;
 }
 
 .dropdown:hover .dropbtn {
   background-color: black;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.content {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-gallery img {
+  width: 100%;
+  flex: 1;
+  min-width: 0;
+  height: 300px;
+  object-fit: cover;
 }
