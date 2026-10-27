@@ -1,0 +1,8 @@
+:root {
+    font-family: "Comic Sans MS"
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
