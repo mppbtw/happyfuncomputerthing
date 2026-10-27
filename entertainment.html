@@ -4,6 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body,
+        body * {
+            font-family: "Comic Sans MS", "Comic Sans", cursive !important;
+        }
+
+        .images,
+        .real,
+        .cuban {
+            display: flex;
+            gap: 1rem;
+            align-items: flex-start;
+        }
+
+        .images > div {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .images figure {
+            flex: 1;
+            min-width: 0;
+            margin: 0;
+        }
+
+        .images img {
+            display: block;
+            width: 80%;
+            height: 270px;
+        }
+    </style>
 </head>
 <body>
     <h1>Entertainment</h1>
@@ -27,35 +58,30 @@
         The earliest notable internet streaming software was RealNetworks' RealPlayer, launched in 1995 to stream audio and video files. For live internet broadcasting, Mark Cuban and Todd Wagner launched Audionet (later known as Broadcast.com) in 1994, which streamed live sports games and radio over the web.
     </p>
 
-    <div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-start; margin: 1rem 0;">
-        <figure style="width: 260px; margin: 0;">
-            <img src="https://i.logos-download.com/41507/8006-og-8e1a6b09d43f1be3b3c30d939ac49a58.png/RealPlayer_Logo_full_og.png" alt="RealPlayer logo" style="width: 100%; height: 150px; object-fit: contain; background: #f2f2f2;">
+    <div class="images">
+        
+        <div class="real">
+        <figure>
+            <img src="https://i.logos-download.com/41507/8006-og-8e1a6b09d43f1be3b3c30d939ac49a58.png/RealPlayer_Logo_full_og.png" alt="RealPlayer logo">
             <figcaption><strong>RealPlayer logo</strong> — the media player developed by RealNetworks.</figcaption>
         </figure>
-        <figure style="width: 260px; margin: 0;">
-            <img src="https://abandonware.online/cdn/shop/files/RealPlayer8-01.png?v=1727450518&amp;width=1445" alt="Classic RealPlayer interface" style="width: 100%; height: 150px; object-fit: contain; background: #f2f2f2;">
+        <figure>
+            <img src="https://abandonware.online/cdn/shop/files/RealPlayer8-01.png?v=1727450518&amp;width=1445" alt="Classic RealPlayer interface">
             <figcaption><strong>Classic RealPlayer interface</strong> — an example of early streaming software.</figcaption>
         </figure>
     </div>
 
-    <div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-start; margin: 1rem 0;">
+    <div class="cuban">
         <figure style="width: 180px; margin: 0;">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/MarkCuban2023.jpg/500px-MarkCuban2023.jpg" alt="Portrait of Mark Cuban" style="width: 100%; height: 180px; object-fit: cover;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/MarkCuban2023.jpg/500px-MarkCuban2023.jpg" alt="Portrait of Mark Cuban" >
             <figcaption><strong>Mark Cuban</strong><br>Co-founder of Audionet and Broadcast.com.</figcaption>
         </figure>
         <figure style="width: 180px; margin: 0;">
-            <img src="https://media.bizj.us/view/img/3075641/chideofoundertoddwagner-handout.jpg" alt="Portrait of Todd Wagner" style="width: 100%; height: 180px; object-fit: cover;">
+            <img src="https://media.bizj.us/view/img/3075641/chideofoundertoddwagner-handout.jpg" alt="Portrait of Todd Wagner" >
             <figcaption><strong>Todd Wagner</strong><br>Co-founder of Audionet and Broadcast.com.</figcaption>
         </figure>
-        <figure style="width: 180px; margin: 0;">
-            <svg viewBox="0 0 180 180" role="img" aria-label="Broadcast.com logo" style="width: 100%; height: 180px; background: #f2f2f2;">
-                <rect width="180" height="180" fill="#17324d"></rect>
-                <circle cx="90" cy="70" r="35" fill="#40b9e8"></circle>
-                <path d="M90 45v50M65 70h50" stroke="#ffffff" stroke-width="8" stroke-linecap="round"></path>
-                <text x="90" y="135" fill="#ffffff" font-size="18" text-anchor="middle" font-family="Arial, sans-serif">Broadcast.com</text>
-            </svg>
-            <figcaption><strong>Broadcast.com</strong><br>Their internet broadcasting company.</figcaption>
-        </figure>
+    </div>
+
     </div>
 
     <h2>So... how do they work?</h2>
