@@ -16,7 +16,7 @@ Validity of HTML
 
 Evidence of collaboration including
 
-    The website seems to be colalborated, but des not contain author information written by someone else in the education.html,and other sites neither. 
+    The website seems to be collaborated. Although the html files like education.html do not contain "about the user section", when I talked to them in person, they mentioned that they worked together. 
 
 
 
